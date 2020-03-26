@@ -49,7 +49,7 @@ export default {
    * @memberof module:config
    * @property {Boolean} aeadProtect
    */
-  aeadProtect: false,
+  aeadProtect: true,
   /**
    * When reading OpenPGP v4 private keys (e.g. those generated in OpenPGP.js when not setting `config.v5Keys = true`)
    * which were encrypted by OpenPGP.js v5 (or older) using `config.aeadProtect = true`,
